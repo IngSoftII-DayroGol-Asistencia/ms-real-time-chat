@@ -61,7 +61,7 @@ ENV NODE_ENV=production \
     PORT=8050 \
     
 
-EXPOSE 8050
+EXPOSE
 
 # Cloud Run handles health checks, no need for Docker HEALTHCHECK
 
