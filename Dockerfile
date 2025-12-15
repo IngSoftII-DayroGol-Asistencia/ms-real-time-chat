@@ -57,11 +57,9 @@ USER nodejs
 
 # Variables de entorno
 ENV NODE_ENV=production \
-    NODE_OPTIONS="--max-old-space-size=512" \
-    PORT=8050 \
+    NODE_OPTIONS="--max-old-space-size=512"
     
-
-EXPOSE
+EXPOSE 8080
 
 # Cloud Run handles health checks, no need for Docker HEALTHCHECK
 
